@@ -62,9 +62,9 @@ export async function POST(req: Request) {
     $spider('script, style, noscript, svg, iframe, canvas, video, audio').remove();
     
     const h1s: string[] = [];
-    $spider('h1').each((_, el) => h1s.push($(el).text().trim()));
+    $spider('h1').each((_, el) => { h1s.push($(el).text().trim()); });
     const h2s: string[] = [];
-    $spider('h2').each((_, el) => h2s.push($(el).text().trim()));
+    $spider('h2').each((_, el) => { h2s.push($(el).text().trim()); });
     
     let linksCount = 0;
     let outLinksCount = 0;
