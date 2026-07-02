@@ -81,8 +81,8 @@ export default function Home() {
   return (
     <main className="min-h-screen p-4 md:p-12 lg:p-24 flex flex-col items-center">
       
-      <div className="text-center mb-12 max-w-4xl">
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight glow-text text-white leading-tight">
+      <div className="text-center mb-12 max-w-6xl w-full">
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight glow-text text-white leading-tight whitespace-nowrap overflow-x-auto pb-2">
           百度SEO核心算法 <span className="text-neon-pink">& EEAT</span> 全景体检
         </h1>
         <p className="text-gray-400 text-lg md:text-xl">
